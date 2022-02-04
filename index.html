@@ -7,8 +7,10 @@
 <body>
 				<h1>New website</h1>
 				<p> This is just a test website</p>
-				<button id="btn" onclick="redirect()">Clock</button>
+				<button id="btn">Clock</button>
 				<script>
+								var btn=document.getElementById("btn")
+								btn.addEventListener("click",redirect)
 							function redirect() {
 											window.location.href="https://limbs.ga/test/"
 							}
@@ -17,20 +19,6 @@
 								#btn{
 												background: #40ffcb;
 								}
-				<style>
+				<style>				
 </body>
 </html>
-
-
-			
-	
-
-
-	
-			
-				
-
-							
-
-
-
